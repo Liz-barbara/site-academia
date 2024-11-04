@@ -1,0 +1,60 @@
+body{
+   background-color: gray;  
+   font-family: sans-serif;
+}
+
+.card{
+    box-shadow: 1px;
+    background-color: azure;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.form{
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+}
+.card-top{
+    text-align: center;
+    font-weight: bold;
+}
+
+.img-login{
+    border-radius: 50px;
+    width: 100px;
+    box-shadow: 1px 1px 5px;
+}
+
+.titulo{
+    color: red;
+}
+
+.card-group{
+    margin-bottom: 16px;
+}
+
+.card-group>label{
+    width: 100%;
+    color:black;
+    display: block;
+  
+}
+
+.card-group>input{
+    border-radius: 5px;
+    outline: 0;
+    width:100% ;
+    height: 26px;
+    
+}
+
+.card-group>button{
+    background-color: black;
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    color: white;
+    border: 0px;
+}
+

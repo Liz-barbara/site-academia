@@ -1,0 +1,51 @@
+body {
+
+        /* Usar a imagem de fundo */
+        background-image: url('img/fundolistar.png');
+        background-size: cover; /* Faz a imagem cobrir todo o fundo */
+        background-position: center; /* Centraliza a imagem */
+        background-repeat: no-repeat; /* Evita a repetição da imagem */
+        height: 100vh; /* Faz o fundo ocupar a altura total da tela */
+        margin: 0; /* Remove a margem padrão */
+        display: flex; /* Usado para centralizar conteúdo */
+        align-items: center; /* Alinha verticalmente */
+        justify-content: center; /* Alinha horizontalmente */
+
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    padding: 31px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #dddddd;
+}
+
+th, td {
+    padding: 16px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.foto {
+    width: 50px; /* Ajuste conforme necessário */
+    height: 50px; /* Ajuste conforme necessário */
+    border-radius: 50%; /* Para fotos redondas */
+}
